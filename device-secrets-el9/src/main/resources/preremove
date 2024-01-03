@@ -1,5 +1,5 @@
 if [ $1 = 0 ]; then
-  /usr/bin/systemctl stop authselect-autodiscovery.service
-  /usr/bin/systemctl disable authselect-autodiscovery.service
+  /usr/bin/systemctl stop secrets-autodiscovery.service
+  /usr/bin/systemctl disable secrets-autodiscovery.service
 fi
 
